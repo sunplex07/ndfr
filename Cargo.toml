@@ -1,0 +1,23 @@
+[package]
+name = "dfr_daemon"
+version = "0.1.0"
+authors = ["Your Name <you@example.com>"]
+edition = "2021"
+
+[[bin]]
+name = "dfr_daemon"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0"
+cairo-rs = { version = "0.20", features = ["png"] }
+drm = "0.11.0"
+evdev = "0.12.1"
+input-linux = "0.7.1"
+input-linux-sys = "0.9.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9.34"
+tiny-skia = "0.11.4"
+gio = "0.20"
+usvg = "0.45.1"
+resvg = "0.45.1"
