@@ -2,7 +2,7 @@
 
 NDFR is a WIP Touch Bar daemon designed to provide a native-like experience on MacBooks running Linux. 
 
-![NDFR Default Layout](https://github.com/sunplex07/ndfr/blob/main/default.png?raw=true) 
+![NDFR Default Layout](https://github.com/sunplex07/ndfr/blob/master/default.png?raw=true) 
 
 ## Requirements
 
