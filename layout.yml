@@ -1,0 +1,28 @@
+# layout.yml / Marked for deprecation.
+
+
+left:
+  spacing: 0
+  buttons:
+    - text: "esc"
+      action: "KEY_ESC"
+      width: 120
+
+right:
+  spacing: 2
+  buttons:
+    - icon: "expand.svg"
+      action: "KEY_UNKNOWN"
+      width: 80
+    - icon: "brightness-down.svg"
+      action: "KEY_BRIGHTNESSDOWN"
+      width: 120
+    - icon: "volume-up.svg"
+      action: "KEY_VOLUMEUP"
+      width: 120
+    - icon: "mute.svg"
+      action: "KEY_MUTE"
+      width: 120
+    - icon: "mission-control.svg"
+      action: "KEY_F13"
+      width: 120
