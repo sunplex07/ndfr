@@ -38,7 +38,7 @@ sudo apt-get install build-essential libcairo2-dev libinput-dev libevdev-dev lib
 
 2. **Build the project:**
    ```bash
-   cargo build --release && make
+   cargo build && make
    ```
    The compiled binary will be located at `target/release/dfr_daemon`.
    
